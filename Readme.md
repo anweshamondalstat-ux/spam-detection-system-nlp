@@ -32,7 +32,7 @@ A Streamlit-based web application was developed to enable real-time SMS spam cla
 
 <h2 id="business-problem">💼 Business Problem</h2>
 
-Spam messages are a major issue for communication platforms. The goal is to:
+High false-positive rates in spam filters lead to missed business opportunities and broken communication chains. This project achieves 100% precision to ensure legitimate messages are never misclassified. The goal is to:
 
 * Automatically detect spam messages
 * Minimize false positives (important messages marked as spam)
@@ -137,6 +137,7 @@ transform_text()
 
 * Count Vectorizer
 * **TF-IDF Vectorizer (Best Performance)**
+Used TF-IDF over Bag of Words to down-weight frequent but less informative words, significantly improving the Multinomial Naive Bayes performance
 
 ### Models Tested
 
@@ -155,6 +156,11 @@ transform_text()
 📌 **Best Model Selected:**
 
 * **Multinomial Naive Bayes + TF-IDF**
+
+📌 **Model Saving**
+Saved using Pickle:
+model.pkl
+vectorizer.pkl
 
 ---
 
