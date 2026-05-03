@@ -15,10 +15,8 @@
 * <a href="#model-building">Model Building</a>
 * <a href="#model-performance">Model Performance</a>
 * <a href="#web-application">Web Application</a>
-* <a href="#deployment">Deployment</a>
 * <a href="#project-structure">Project Structure</a>
 * <a href="#how-to-run-this-project">How to Run</a>
-* <a href="#future-improvements">Future Improvements</a>
 * <a href="#author--contact">Author</a>
 
 ---
@@ -28,7 +26,7 @@
 This project builds a complete **SMS Spam Detection System** using NLP techniques and machine learning models.
 It processes raw text messages, transforms them into numerical features, and classifies them with high precision.
 
-The final solution is deployed as a **Streamlit web app**, allowing real-time predictions.
+A Streamlit-based web application was developed to enable real-time SMS spam classification. The app can be executed locally.
 
 ---
 
@@ -189,15 +187,6 @@ transform_text()
 
 ---
 
-<h2 id="deployment">🚀 Deployment</h2>
-
-* Deployed on **Render**
-
-👉 Add your live link here:
-
-```
-https://your-app-link.onrender.com
-```
 
 ---
 
@@ -224,13 +213,7 @@ sms-spam-classifier/
 git clone https://github.com/your-username/sms-spam-classifier.git
 ```
 
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the app:
+2. Run the app:
 
 ```bash
 streamlit run app.py
