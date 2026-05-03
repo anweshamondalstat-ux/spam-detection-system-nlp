@@ -68,52 +68,72 @@ Spam messages are a major issue for communication platforms. The goal is to:
 
 <h2 id="project-workflow">⚙️ Project Workflow</h2>
 
+## 🔍 Project Workflow
+
 ### 1️⃣ Data Cleaning
 
-* Removed unnecessary columns
-* Renamed columns
-* Label encoding (Spam = 1, Ham = 0)
-* Checked null values
+* Removed unwanted columns
+* Renamed columns for clarity
+* Label encoding:
+
+  * Spam → 1
+  * Ham → 0
+* Checked for null values
 * Removed duplicate records
 
 ---
 
-### 2️⃣ Text Preprocessing
+### 2️⃣ Exploratory Data Analysis (EDA)
+
+* Distribution of Spam vs Ham messages (Pie Chart)
+* Observed slight class imbalance
+* Created features:
+
+  * Number of characters
+  * Number of words
+* Compared Spam vs Ham using histograms
+* Correlation heatmap
+
+📊 **EDA Visualizations:**
+(Add your images here)
+
+```
+![EDA 1](path/to/image)
+![EDA 2](path/to/image)
+```
+
+---
+
+### 3️⃣ Text Preprocessing
+
+Steps performed:
 
 * Lowercasing
 * Tokenization
 * Removing stopwords & punctuation
-* Stemming using Porter Stemmer
+* Stemming (Porter Stemmer)
 
-Custom preprocessing function:
+Custom function used:
 
-```python
+```
 transform_text()
 ```
 
 ---
 
-<h2 id="exploratory-data-analysis-eda">📊 Exploratory Data Analysis (EDA)</h2>
+### ☁️ WordCloud Visualization
 
-* Distribution of Spam vs Ham messages
-* Identified slight class imbalance
-* Feature engineering:
+* WordCloud for Spam messages
+* WordCloud for Ham messages
 
-  * Number of characters
-  * Number of words
-* Spam messages tend to have:
-
-  * More words
-  * More characters
-
-📌 **EDA Visualizations**
-(Add your images below)
+(Add images here)
 
 ```
-![Spam vs Ham Distribution](images/eda1.png)
-![Word/Character Analysis](images/eda2.png)
+![Spam WordCloud](path/to/image)
+![Ham WordCloud](path/to/image)
 ```
 
+---
 ---
 
 <h2 id="model-building">🤖 Model Building</h2>
