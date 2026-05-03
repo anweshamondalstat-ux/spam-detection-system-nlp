@@ -1,4 +1,4 @@
-# 📩 SMS Spam Classification using NLP & Machine Learning
+<img width="833" height="569" alt="Correlation Matrix" src="https://github.com/user-attachments/assets/2d69eb51-2dec-4bcd-935c-90f87c2d2a44" /># 📩 SMS Spam Classification using NLP & Machine Learning
 
 *An end-to-end Natural Language Processing (NLP) project to classify SMS messages as Spam or Ham using machine learning, with deployment as an interactive web application.*
 
@@ -92,11 +92,15 @@ Spam messages are a major issue for communication platforms. The goal is to:
 * Correlation heatmap
 
 📊 **EDA Visualizations:**
-(Add your images here)
+
 
 ```
-![EDA 1](path/to/image)
-![EDA 2](path/to/image)
+
+<img width="567" height="473" alt="Spam msg Vs Ham Msg" src="https://github.com/user-attachments/assets/ad00413e-e52e-4336-ab56-4bdcd1fa0c9d" />
+
+<img width="833" height="569" alt="Correlation Matrix" src="https://github.com/user-attachments/assets/ae0eb257-08e1-44c7-8df0-ed26ff4a033e" />
+
+
 ```
 
 ---
