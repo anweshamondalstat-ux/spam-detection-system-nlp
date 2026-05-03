@@ -241,9 +241,9 @@ streamlit run app.py
 <h2 id="author--contact">👨‍💻 Author</h2>
 
 **Your Name**
-📧 Email: [your-email@gmail.com](mailto:your-email@gmail.com)
-🔗 LinkedIn: your-link
-🔗 GitHub: your-link
+📧 Email: anweshamondal.stat@gmail.com
+🔗 LinkedIn: your-www.linkedin.com/in/anwesha-mondal-stats
+
 
 ---
 
