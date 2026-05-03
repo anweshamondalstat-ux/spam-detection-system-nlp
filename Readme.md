@@ -153,6 +153,13 @@ Used TF-IDF over Bag of Words to down-weight frequent but less informative words
 * Gradient Boosting
 * XGBoost
 
+### 📊 Model Performance Comparison
+
+<img width="709" height="655" alt="Model Performance" src="https://github.com/user-attachments/assets/5fcac75f-5e88-4424-82e8-7fe72b86543e" />
+
+
+👉 Insight: Multinomial Naive Bayes with TF-IDF achieved the highest accuracy and precision compared to other models.
+
 📌 **Best Model Selected:**
 
 * **Multinomial Naive Bayes + TF-IDF**
