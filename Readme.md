@@ -120,15 +120,13 @@ transform_text()
 
 ### ☁️ WordCloud Visualization
 
-* WordCloud for Spam messages
-* WordCloud for Ham messages
+☁️ Most Frequent Words in Spam Messages
+<img width="577" height="559" alt="spam msg word cloud" src="https://github.com/user-attachments/assets/f64a349a-c994-40df-a587-82473ade426b" />
 
-(Add images here)
+☁️ Most Frequent Words in Ham Messages
 
-```
-![Spam WordCloud](path/to/image)
-![Ham WordCloud](path/to/image)
-```
+<img width="570" height="559" alt="ham msg word cloud" src="https://github.com/user-attachments/assets/775090d0-9343-4749-ac5b-1b1265165c54" />
+
 
 ---
 ---
