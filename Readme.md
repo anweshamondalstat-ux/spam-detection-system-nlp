@@ -68,7 +68,6 @@ Spam messages are a major issue for communication platforms. The goal is to:
 
 <h2 id="project-workflow">⚙️ Project Workflow</h2>
 
-## 🔍 Project Workflow
 
 ### 1️⃣ Data Cleaning
 
