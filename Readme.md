@@ -217,16 +217,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
-
-<h2 id="future-improvements">🔮 Future Improvements</h2>
-
-* Handle class imbalance using SMOTE
-* Implement Deep Learning models (LSTM, BERT)
-* Improve UI/UX
-* Deploy REST API
-
----
 
 <h2 id="author--contact">👨‍💻 Author</h2>
 
